@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(205, 203, 233);
+    font-family:'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, #ffa400,#00aefd);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(8, 1, 15);
+}
+
+
+.title{
+    font-size: 3.5rem;
+    font-style: italic;
+    text-shadow: 1px 0px 2px rgb(7, 0, 6);
+    margin-bottom: 10px;
+    float: right;
+}
+
+.title p{
+   border-bottom: 5px solid rgb(167, 25, 157); 
+}
+
+
+
+.service{
+    padding: 50px 0 0 180px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 5.5fr 1fr; 
+    grid-gap: 0 45px ;
+    grid-template-areas:
+    "h1 h2 h3 h4"  
+    "h1 h6 h3 h8"
+    "h5 h6 h7 h8";
+}
+
+.service .service-tag:hover a{
+    color: rgb(104, 18, 184);
+}
+
+.service-tag:first-child{
+    grid-area: h1;
+}
+
+.service-tag:nth-child(2){
+    grid-area: h2;
+}
+
+.service-tag:nth-child(3){
+    grid-area: h3;
+}
+
+.service-tag:nth-child(4){
+    grid-area: h4;
+}
+
+.service-tag:nth-child(5){
+    grid-area: h5;
+}
+
+.service-tag:nth-child(6){
+    grid-area: h6;
+}
+
+.service-tag:nth-child(7){
+    grid-area: h7;
+}
+
+.service-tag:last-child{
+    grid-area: h8;
+}
+
+/* .service{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.service .service-tag {
+    margin-right: 3rem;
+}
+
+.service .service-tag:hover{
+    color: blueviolet;
+}
+
+.tag2{
+     margin-top: 200px;
+    float: left;
+}
+.tag3{
+    margin-top: 400px;
+     float: left;
+ } 
+*/
+.service .service-tag img{
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.service .service-tag div{
+    background-color: rgb(236, 227, 227);
+    padding:10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+} 

@@ -1,0 +1,424 @@
+.container{
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+.container .menu .menu-header{
+    display: flex;
+    background-color:#11213a;
+}
+
+.container .menu .menu-header .menu-title{
+    width: 860px;
+    display: inline-block;
+}
+
+.container .menu .menu-header .menu-title img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container .menu .menu-header .menu-title .titles{
+    display: flex;
+    padding: 1rem 0;
+    margin-left: 185px;
+}
+
+.container .menu .menu-header .menu-title .titles .title1{
+     margin-left: 15px; 
+}
+
+.container .menu .menu-header .menu-title .titles .title1 span{
+     border-bottom: 2.5px solid aqua;
+     padding-bottom: 3px;
+}
+
+.container .menu .menu-header .menu-title .titles .title{
+    line-height: 40px;
+    padding-left: 20px;
+}
+
+.container .menu a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+
+.container .menu a:hover{
+    color:aqua;
+}
+
+.container .menu .menu-header .menu-search{
+    display: flex;
+    padding: 1rem 0;
+}
+
+.container .menu .menu-header .menu-search ion-icon{
+    color: white;
+    font-size: 20px;
+    margin-bottom: -5px;
+    margin-left: -35px;
+}
+
+.container .menu .menu-header .menu-search ion-icon:hover{
+    cursor: pointer;
+}
+
+.container .menu .menu-header .menu-search input{
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    line-height: 40px;
+    font-style: italic;
+    background-color:#151D28;
+     font-size: 14px;
+}
+
+.container .menu .menu-header .menu-search a{
+   line-height: 40px;
+   padding-left: 50px;
+}
+
+.container .menu .menu-HDH{
+    display: flex;
+    padding-left: 185px;
+    background-color:#151D28;
+}
+
+.container .menu .menu-HDH .HDH{
+    padding-right: 20px;
+    line-height: 45px; 
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #ABABAB;
+}
+
+.container .menu .menu-HDH .HDH a{
+    font-weight: 500;
+    font-size: 0.8rem;
+     color: #ABABAB;
+}
+
+.container .menu .menu-HDH .HDH a:hover{
+    color: aqua;
+}
+
+.container .menu .menu-HDH .hdh{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #27374b;
+}
+
+.content{
+    display: flex;
+    background-color:rgb(240,240,240);
+}
+
+.content .index-content ul{
+    padding: 1rem 0 0 12rem;
+}
+
+.content .index-content ul li{
+     width: 100px;
+}
+
+.content .index-content ul li a{
+    text-decoration: none;
+    color:#2b5baa;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.content .index-content ul li a:hover{
+    text-decoration: underline;
+}
+
+.content .main-content{
+    width: 725px;
+    background-color: white;
+    margin: 1rem 0;
+    box-shadow: 1px 1px 5px  gray;
+}
+
+.content .main-content .header{
+    background-color: rgb(236, 233, 233);
+    line-height: 36px;
+    height: 36px;
+    border-bottom: 1px solid rgb(179, 178, 178) ;
+    position: relative;
+}
+.content .main-content .header div{
+    font-size: 15px;
+    color: rgb(114, 112, 112);
+    width: 50px;
+    text-align: center;
+    float: left;
+}
+
+.content .main-content .header .logo-1:hover{
+    background-color: white;
+}
+
+.content .main-content .header .logo-2{
+    float: right;
+    font-size: 17px;
+    line-height: 40px;
+}
+
+.content .main-content .main{
+    margin: 0 10px;
+}
+
+.content .main-content .main a{
+    color:#2b5baa;
+    text-decoration: none;
+}
+
+.content .main-content .main a:hover{
+    text-decoration: underline;
+}
+
+.content .main-content .main h1{
+  font-size: 26px;
+  padding: 15px 0 0 0;
+}
+
+.content .main-content .main .title-main{
+    margin-top: 14px;
+    height: auto;
+    background-color: #F9D9B0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: rgb(109,63,3);
+}
+
+.content .main-content .main .title-main p a{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(109,63,3);
+    text-decoration: none;
+}
+
+.content .main-content .main .title-main p a:hover{
+    text-decoration: underline;
+}
+
+.content .main-content .main .title-main p{
+    font-size: 10px;
+}
+
+.content .main-content .main .topics .topic{
+    position: relative;
+    font-size: 14px;
+    padding: 10px 5px ;
+    border-bottom: 1px dotted #b4dcf7;
+    height: 35px;
+}
+
+.content .main-content .main .topics .topic ion-icon{
+    color:#2b5baa;
+    font-size: 25px;
+    margin: 2px 10px 10px 15px;
+    float: left;
+}
+
+.content .main-content .main .topics .topic .topic-info{
+    float: left;
+    width: 290px;
+    padding-left: 10px ;
+    line-height: 1rem;
+}
+
+.content .main-content .main .topics .topic .topic-info .topic-name a{
+    color:#2b5baa;
+    padding-bottom: 1px;
+}
+
+.content .main-content .main .topics .topic .topic-info .topic-status{
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+.content .main-content .main .topics .topic .topic-info .topic-status .title, .post{
+    color:#969696;
+}
+
+.content .main-content .main .topics .topic .lastest-posts{
+    float: right;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 212px;
+    height: 30px;
+    border: 1px solid #d7edfc;
+    padding: 3px 10px;
+    border-radius: 5px;
+    background-color: #f0f7fc;
+    
+}
+
+.content .main-content .main .topics .topic .lastest-posts a{
+    text-decoration: none;
+    color:#2b5baa;
+}
+
+.content .main-content .main .topics .topic .lastest-posts a:hover{
+    text-decoration: underline;
+}
+
+.content .main-content .main .topics .topic .lastest-posts .time-lastPost{
+    color:#969696;
+}
+
+.content .content-onWeek{
+    margin: 1rem 0 0 1rem;
+    width: 300px;
+}
+
+.content .content-onWeek .sign-up{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 22px 0;
+    margin-bottom: 1rem;
+}
+
+.content .content-onWeek .sign-up a{
+    text-align: center;
+    background-color: #E68C17;
+    padding: 8px 50px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.content .content-onWeek .sign-up a:hover{
+    background-color: #e4b16e;
+}
+
+.content .content-onWeek .mainContent-onWeek{
+    background-color: white;
+    border-top: 5px solid #11213a;
+}
+
+.content .content-onWeek .mainContent-onWeek h3{
+    padding: 20px 0 22px 10px;
+    color: #11213a;
+    border-bottom: 1px solid rgb(202, 200, 200);
+}
+
+.content .content-onWeek .mainContent-onWeek .main{
+    padding: 5px 0px;
+}
+
+.content .content-onWeek .mainContent-onWeek .main .hotNews-onWeek{
+    display: flex;
+    padding: 5px 8px 0px 8px;
+}
+
+.content .content-onWeek .mainContent-onWeek .main .hotNews-onWeek img{
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    margin-right: 6px;
+    border-radius: 3px;
+}
+
+.content .content-onWeek .mainContent-onWeek .main .hotNews-onWeek a{
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+.content .content-onWeek .mainContent-onWeek .main .hotNews-onWeek a:hover{
+    color:rgb(29, 187, 187);
+}
+
+footer{
+    background-color:#151D28;
+    color: white;
+    
+}
+
+footer a{
+   text-decoration: none;
+}
+
+footer .page-content{
+    padding-left: 185px;
+}
+
+footer .page-content .homelink{
+    padding: 0px 24px 0px 0px;
+}
+
+footer .page-content a{
+    color: white;
+    font-size: 12px;
+    padding: 0px 24px;
+    line-height: 50px;
+}
+
+footer a ion-icon{
+    font-size: 16px;
+    margin-bottom: -5px;
+}
+
+footer .page-content a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+footer .page-content-1{
+    background-color: #1A2534;
+    padding: 15px 0 15px 185px;
+}
+
+footer .page-content-1 h3{
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+
+footer .page-content-1 .big-footer{
+    display: flex;
+    padding: 15px 15px 15px 0px;  
+}
+
+footer .page-content-1 .big-footer .section{
+    display: flex;
+    flex-direction: column;
+     width: 270px;
+}
+
+footer .page-content-1 .big-footer .section a{
+    color: #9B9C9E;
+    padding: 0px;
+    line-height: 22px;
+    font-size: 13px;
+}
+
+footer .page-content-1 .big-footer .section a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+footer .copyright{
+    margin-top: 3px;
+    padding: 15px 0 15px 185px; 
+    background-color: #1A2534;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

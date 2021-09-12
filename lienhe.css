@@ -1,0 +1,112 @@
+body{
+    background-color: #d8d2ce;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+     text-align: center;
+     font-weight: 600;
+}
+
+nav{
+    margin-top: 10px;
+    background-color: #e2833f;
+    color: #403e43;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding: 15px 10px;
+}
+
+
+article .contact aside{
+   padding: 147px 820px 147px 820px;
+}
+
+article .contact aside p{
+    width: 300px;
+    height: 79px;
+    font-size: 32px;
+    border: 2px solid #403e43;
+    color:#403e43;
+    line-height: 79px;
+}
+
+article .info-contact{
+    background-color:  #403e43 ;
+}
+
+article .info-contact p{
+    padding: 40px 0px 10px 0px;
+    font-size: 27px;
+    color:  #c76f30;
+}
+
+article .info-contact aside{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+article .info-contact aside div{
+    width: 300px;
+    padding: 30px 40px;
+}
+
+article .info-contact aside div ion-icon{
+    height: 60px;
+    width: 80px;
+    color: #c76f30;
+    margin-bottom: -40px;
+}
+
+article .info-contact aside div a{
+    color:white;
+    text-decoration: none;
+}
+
+article .info-contact aside div span{
+    color: white;
+    display: block;
+    width: 300px;
+    line-height: 24px;
+}
+
+article .info-contact aside div a:hover{
+    text-decoration: underline;
+}
+
+
+
+article .info-contact aside .middle{
+    padding: 30px 40px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+article .sub-menu{
+    background-color: #915225;
+ ;
+}
+
+article .sub-menu ul {
+   display: flex;
+   justify-content: center;
+   padding: 10px ;
+}
+
+article .sub-menu ul li{
+    border-right: 1px solid white;
+    padding: 10px;
+}
+
+article .sub-menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+article .sub-menu a:hover{
+    color: brown;
+}
+
+
+
